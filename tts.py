@@ -1,39 +1,42 @@
-import boto3
-import pygame
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.chrome.options import Options
 import os
-import io
+import time
+from datetime import datetime
 
-class Polly():
-    OUTPUT_FORMAT='mp3'
 
-    def __init__(self, voiceId):
-        self.polly = boto3.client('polly') #access amazon web service
-        self.VOICE_ID = voiceId
+def speak(text):
+    start = datetime.now()
 
-    def say(self, textToSpeech): #get polly response and play directly
-        pollyResponse = self.polly.synthesize_speech(Text=textToSpeech, OutputFormat=self.OUTPUT_FORMAT, VoiceId=self.VOICE_ID)
-        
-        pygame.mixer.init()
-        pygame.init()  # this is needed for pygame.event.* and needs to be called after mixer.init() otherwise no sound is played 
-        
-        if os.name != 'nt':
-            pygame.display.set_mode((1, 1)) #doesn't work on windows, required on linux
-            
-        with io.BytesIO() as f: # use a memory stream
-            f.write(pollyResponse['AudioStream'].read()) #read audiostream from polly
-            f.seek(0)
-            pygame.mixer.music.load(f)
-            pygame.mixer.music.set_endevent(pygame.USEREVENT)
-            pygame.event.set_allowed(pygame.USEREVENT)
-            pygame.mixer.music.play()
-            pygame.event.wait() # play() is asynchronous. This wait forces the speaking to be finished before closing
-            
-        while pygame.mixer.music.get_busy() == True:
-            pass
+    options = webdriver.ChromeOptions()
+    chrome_options = Options()
+    chrome_options.add_argument("--headless")
 
-    def saveToFile(self, textToSpeech, fileName): #get polly response and save to file
-        pollyResponse = self.polly.synthesize_speech(Text=textToSpeech, OutputFormat=self.OUTPUT_FORMAT, VoiceId=self.VOICE_ID)
-        
-        with open(fileName, 'wb') as f:
-            f.write(pollyResponse['AudioStream'].read())
-            f.close()
+    PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
+    DRIVER_BIN = os.path.join(PROJECT_ROOT, "chromedriver")
+
+    driver = webdriver.Chrome(executable_path=DRIVER_BIN, options=chrome_options)
+
+    driver.get("https://www.ibm.com/demos/live/tts-demo/self-service/home")
+    driver.find_element_by_id('text-area').clear()
+    driver.find_element_by_id('text-area').send_keys(text)
+
+    driver.find_element_by_id('dialect').click()
+    time.sleep(0.5)
+    driver.find_element_by_xpath(
+        '/html/body/div[1]/div/div[2]/div[3]/div/div[1]/div[1]/div[1]/div[2]/div/div/div/div[2]/div').click()
+
+    driver.find_element_by_id('voice').click()
+    time.sleep(0.5)
+    driver.find_element_by_xpath(
+        '/html/body/div[1]/div/div[2]/div[3]/div/div[1]/div[1]/div[1]/div[3]/div/div/div/div[3]/div').click()
+
+    driver.find_element_by_id('downshift-3-toggle-button').send_keys(Keys.ARROW_UP, Keys.ENTER)
+
+    driver.find_element_by_id('btn').click()
+
+    print("Total Time:", datetime.now() - start)
+
+    time.sleep(10)
+    os.system('killall chromedriver')
