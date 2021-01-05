@@ -23,133 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfd515fb-24bf-410d-ac7d-86e248f4816d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chromedriver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/polly.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/polly.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calSync.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cron.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/get_news.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_news.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/joanna.mp3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music.mp3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/newsTime.py" beforeDir="false" afterPath="$PROJECT_DIR$/newsTime.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/.github/workflows/pythonpackage.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Finger Detection and Tracking/FingerDetection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Finger Detection and Tracking/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apiTTS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Finger Detection and Tracking/singhTest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Harcascade classifiers/haarcascade_eye.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Harcascade classifiers/haarcascade_frontalface_default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/OpenCV models/AdaptiveThresholding.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/OpenCV models/BackgroundSubtractorMOG.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/OpenCV models/BlurDialationErosion.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/OpenCV models/CannyEdgeDetection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/OpenCV models/ColorPalette.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/OpenCV models/Contours.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/OpenCV models/DrawShape.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/OpenCV models/FuzzyContour.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/OpenCV models/Haarcascade.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/OpenCV models/HighPassFilter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/OpenCV models/HistogramEqualization.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/OpenCV models/HoughLine.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/OpenCV models/ImageHistogram.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/OpenCV models/ImageRestoration.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/OpenCV models/ImageShifting.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/OpenCV models/KernalFiltering.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/OpenCV models/LogicalOperation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/OpenCV models/MediaPlayer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/OpenCV models/NegativeFrame.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/OpenCV models/OTSUThresholding.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/OpenCV models/ObjectDetection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/OpenCV models/PerspectiveTransformation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/OpenCV models/Pyramids.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/OpenCV models/SaltPepperNoise.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/OpenCV models/Scaling.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/OpenCV models/SkinDetection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/OpenCV models/SplitMerge.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/OpenCV models/Subplot.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/OpenCV models/TemplateMatching.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/OpenCV models/Transition.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/OpenCV models/Transparency.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/OpenCV models/VideoCamera.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/OpenCV models/VideoCapture.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/OpenCV models/VideoRotation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/OpenCV models/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/OpenCV models/featureDetection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/OpenCV models/playground.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/4.1.01.tiff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/4.1.02.tiff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/4.1.03.tiff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/4.1.04.tiff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/4.1.05.tiff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/4.1.06.tiff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/4.1.07.tiff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/4.1.08.tiff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/4.2.01.tiff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/4.2.03.tiff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/4.2.05.tiff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/4.2.06.tiff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/4.2.07.tiff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/5.1.09.tiff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/5.1.10.tiff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/5.1.11.tiff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/5.1.12.tiff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/5.1.13.tiff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/5.1.14.tiff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/5.2.08.tiff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/5.2.09.tiff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/5.2.10.tiff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/5.3.01.tiff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/5.3.02.tiff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/7.1.01.tiff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/7.1.02.tiff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/7.1.03.tiff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/7.1.04.tiff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/7.1.05.tiff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/7.1.06.tiff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/7.1.07.tiff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/7.1.08.tiff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/7.1.09.tiff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/7.1.10.tiff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/7.2.01.tiff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/Damaged Image.tiff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/Mask.tiff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/boat.512.tiff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/cameraman.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/detect_blob.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/faces.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/fuzzy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/gray21.512.tiff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/house.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/house.tiff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/jetplane.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/lake.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/lena_color_256.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/lena_color_512.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/lena_gray_256.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/lena_gray_512.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/livingroom.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/mandril_color.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/mandril_gray.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/peppers_color.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/peppers_gray.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/pirate.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/players.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/rgba_blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/rgba_green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/rgba_red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/ruler.512.tiff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/sudoku.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/template.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/walkbridge.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/woman_blonde.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/Sample images/woman_darkhair.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/Finger-Detection-and-Tracking-master/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/opencv/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tts.py" beforeDir="false" afterPath="$PROJECT_DIR$/tts.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weather.py" beforeDir="false" afterPath="$PROJECT_DIR$/weather.py" afterDir="false" />
     </list>
@@ -194,14 +71,36 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/opencv" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.calSync">
+    <configuration name="calSync" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="polly" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/calSync.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="get_news" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="polly" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -238,28 +137,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="newsTime" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="polly" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/newsTime.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -314,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.calSync" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.weather" />
         <item itemvalue="Python.tts" />
         <item itemvalue="Python.get_news" />
-        <item itemvalue="Python.newsTime" />
-        <item itemvalue="Python.weather" />
       </list>
     </recent_temporary>
   </component>
@@ -332,18 +209,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575436872298</updated>
-      <workItem from="1609358344366" duration="15785000" />
+      <workItem from="1609358344366" duration="25256000" />
     </task>
+    <task id="LOCAL-00001" summary="Free TTS">
+      <created>1609721005303</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609721005303</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
@@ -361,42 +237,45 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Free TTS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Free TTS" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1118" y="-770" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609571218963">
+    <state x="1118" y="-770" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609739424376">
       <screen x="565" y="-1055" width="1920" height="1055" />
     </state>
+    <state x="1118" y="-770" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.822/-1360.-1055.1920.1055/565.-1055.1920.1055@565.-1055.1920.1055" timestamp="1609739424376" />
     <state x="415" y="247" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.823/-1360.-1055.1920.1055/565.-1055.1920.1055@0.25.1440.823" timestamp="1609569098996" />
     <state x="1118" y="-770" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.823/-1360.-1055.1920.1055/565.-1055.1920.1055@565.-1055.1920.1055" timestamp="1609571218963" />
-    <state width="1876" height="216" key="GridCell.Tab.0.bottom" timestamp="1609720551656">
-      <screen x="565" y="-1055" width="1920" height="1055" />
+    <state width="1396" height="251" key="GridCell.Tab.0.bottom" timestamp="1609833984427">
+      <screen x="0" y="25" width="1440" height="822" />
     </state>
-    <state width="1876" height="216" key="GridCell.Tab.0.bottom/0.25.1440.822/-1360.-1055.1920.1055/565.-1055.1920.1055@565.-1055.1920.1055" timestamp="1609720551656" />
-    <state width="1396" height="216" key="GridCell.Tab.0.bottom/0.25.1440.822@0.25.1440.822" timestamp="1609717959261" />
+    <state width="1876" height="212" key="GridCell.Tab.0.bottom/0.25.1440.822/-1360.-1055.1920.1055/565.-1055.1920.1055@565.-1055.1920.1055" timestamp="1609740751195" />
+    <state width="1396" height="251" key="GridCell.Tab.0.bottom/0.25.1440.822@0.25.1440.822" timestamp="1609833984427" />
     <state width="1396" height="191" key="GridCell.Tab.0.bottom/0.25.1440.823/-1360.-1055.1920.1055/565.-1055.1920.1055@0.25.1440.823" timestamp="1609570039212" />
     <state width="1876" height="216" key="GridCell.Tab.0.bottom/0.25.1440.823/-1360.-1055.1920.1055/565.-1055.1920.1055@565.-1055.1920.1055" timestamp="1609573414929" />
     <state width="1396" height="216" key="GridCell.Tab.0.bottom/0.25.1440.823@0.25.1440.823" timestamp="1609626729631" />
-    <state width="1876" height="216" key="GridCell.Tab.0.center" timestamp="1609720551655">
-      <screen x="565" y="-1055" width="1920" height="1055" />
+    <state width="1396" height="251" key="GridCell.Tab.0.center" timestamp="1609833984426">
+      <screen x="0" y="25" width="1440" height="822" />
     </state>
-    <state width="1876" height="216" key="GridCell.Tab.0.center/0.25.1440.822/-1360.-1055.1920.1055/565.-1055.1920.1055@565.-1055.1920.1055" timestamp="1609720551655" />
-    <state width="1396" height="216" key="GridCell.Tab.0.center/0.25.1440.822@0.25.1440.822" timestamp="1609717959260" />
+    <state width="1876" height="212" key="GridCell.Tab.0.center/0.25.1440.822/-1360.-1055.1920.1055/565.-1055.1920.1055@565.-1055.1920.1055" timestamp="1609740751194" />
+    <state width="1396" height="251" key="GridCell.Tab.0.center/0.25.1440.822@0.25.1440.822" timestamp="1609833984426" />
     <state width="1396" height="191" key="GridCell.Tab.0.center/0.25.1440.823/-1360.-1055.1920.1055/565.-1055.1920.1055@0.25.1440.823" timestamp="1609570039211" />
     <state width="1876" height="216" key="GridCell.Tab.0.center/0.25.1440.823/-1360.-1055.1920.1055/565.-1055.1920.1055@565.-1055.1920.1055" timestamp="1609573414928" />
     <state width="1396" height="216" key="GridCell.Tab.0.center/0.25.1440.823@0.25.1440.823" timestamp="1609626729630" />
-    <state width="1876" height="216" key="GridCell.Tab.0.left" timestamp="1609720551654">
-      <screen x="565" y="-1055" width="1920" height="1055" />
+    <state width="1396" height="251" key="GridCell.Tab.0.left" timestamp="1609833984426">
+      <screen x="0" y="25" width="1440" height="822" />
     </state>
-    <state width="1876" height="216" key="GridCell.Tab.0.left/0.25.1440.822/-1360.-1055.1920.1055/565.-1055.1920.1055@565.-1055.1920.1055" timestamp="1609720551654" />
-    <state width="1396" height="216" key="GridCell.Tab.0.left/0.25.1440.822@0.25.1440.822" timestamp="1609717959260" />
+    <state width="1876" height="212" key="GridCell.Tab.0.left/0.25.1440.822/-1360.-1055.1920.1055/565.-1055.1920.1055@565.-1055.1920.1055" timestamp="1609740751192" />
+    <state width="1396" height="251" key="GridCell.Tab.0.left/0.25.1440.822@0.25.1440.822" timestamp="1609833984426" />
     <state width="1396" height="191" key="GridCell.Tab.0.left/0.25.1440.823/-1360.-1055.1920.1055/565.-1055.1920.1055@0.25.1440.823" timestamp="1609570039211" />
     <state width="1876" height="216" key="GridCell.Tab.0.left/0.25.1440.823/-1360.-1055.1920.1055/565.-1055.1920.1055@565.-1055.1920.1055" timestamp="1609573414927" />
     <state width="1396" height="216" key="GridCell.Tab.0.left/0.25.1440.823@0.25.1440.823" timestamp="1609626729629" />
-    <state width="1876" height="216" key="GridCell.Tab.0.right" timestamp="1609720551655">
-      <screen x="565" y="-1055" width="1920" height="1055" />
+    <state width="1396" height="251" key="GridCell.Tab.0.right" timestamp="1609833984427">
+      <screen x="0" y="25" width="1440" height="822" />
     </state>
-    <state width="1876" height="216" key="GridCell.Tab.0.right/0.25.1440.822/-1360.-1055.1920.1055/565.-1055.1920.1055@565.-1055.1920.1055" timestamp="1609720551655" />
-    <state width="1396" height="216" key="GridCell.Tab.0.right/0.25.1440.822@0.25.1440.822" timestamp="1609717959261" />
+    <state width="1876" height="212" key="GridCell.Tab.0.right/0.25.1440.822/-1360.-1055.1920.1055/565.-1055.1920.1055@565.-1055.1920.1055" timestamp="1609740751195" />
+    <state width="1396" height="251" key="GridCell.Tab.0.right/0.25.1440.822@0.25.1440.822" timestamp="1609833984427" />
     <state width="1396" height="191" key="GridCell.Tab.0.right/0.25.1440.823/-1360.-1055.1920.1055/565.-1055.1920.1055@0.25.1440.823" timestamp="1609570039211" />
     <state width="1876" height="216" key="GridCell.Tab.0.right/0.25.1440.823/-1360.-1055.1920.1055/565.-1055.1920.1055@565.-1055.1920.1055" timestamp="1609573414928" />
     <state width="1396" height="216" key="GridCell.Tab.0.right/0.25.1440.823@0.25.1440.823" timestamp="1609626729630" />
@@ -416,11 +295,20 @@
       <screen x="0" y="25" width="1440" height="822" />
     </state>
     <state width="1396" height="254" key="GridCell.Tab.1.right/0.25.1440.822@0.25.1440.822" timestamp="1609706167724" />
-    <state x="238" y="65" key="SettingsEditor" timestamp="1609563421390">
-      <screen x="0" y="25" width="1440" height="823" />
+    <state x="394" y="70" key="SettingsEditor" timestamp="1609788022640">
+      <screen x="0" y="25" width="1440" height="822" />
     </state>
+    <state x="394" y="70" key="SettingsEditor/0.25.1440.822@0.25.1440.822" timestamp="1609788022640" />
     <state x="238" y="65" key="SettingsEditor/0.25.1440.823/-1360.-1055.1920.1055/565.-1055.1920.1055@0.25.1440.823" timestamp="1609563421390" />
     <state x="238" y="65" key="SettingsEditor/0.25.1440.823@0.25.1440.823" timestamp="1609358401176" />
+    <state x="1125" y="-795" key="Vcs.Push.Dialog.v2" timestamp="1609721060549">
+      <screen x="565" y="-1055" width="1920" height="1055" />
+    </state>
+    <state x="1125" y="-795" key="Vcs.Push.Dialog.v2/0.25.1440.822/-1360.-1055.1920.1055/565.-1055.1920.1055@565.-1055.1920.1055" timestamp="1609721060549" />
+    <state x="1192" y="-750" key="git4idea.merge.GitPullDialog" timestamp="1609721068669">
+      <screen x="565" y="-1055" width="1920" height="1055" />
+    </state>
+    <state x="1192" y="-750" key="git4idea.merge.GitPullDialog/0.25.1440.822/-1360.-1055.1920.1055/565.-1055.1920.1055@565.-1055.1920.1055" timestamp="1609721068669" />
     <state x="1175" y="-807" width="700" height="530" key="recent.locations.popup" timestamp="1609720569843">
       <screen x="565" y="-1055" width="1920" height="1055" />
     </state>
@@ -428,10 +316,11 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/alarmJARVIS$newsTime.coverage" NAME="newsTime Coverage Results" MODIFIED="1609657681225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/alarmJARVIS$weather.coverage" NAME="weather Coverage Results" MODIFIED="1609657647710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/alarmJARVIS$weather.coverage" NAME="weather Coverage Results" MODIFIED="1609808579548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/alarmJARVIS$get_news.coverage" NAME="get_news Coverage Results" MODIFIED="1609720156744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/alarmJARVIS$calSync.coverage" NAME="calSync Coverage Results" MODIFIED="1609834006688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/alarmJARVIS$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1609573414917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
-    <SUITE FILE_PATH="coverage/alarmJARVIS$main.coverage" NAME="main Coverage Results" MODIFIED="1609720464042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/alarmJARVIS$tts.coverage" NAME="tts Coverage Results" MODIFIED="1609720224528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/alarmJARVIS$main.coverage" NAME="main Coverage Results" MODIFIED="1609831179327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/alarmJARVIS$tts.coverage" NAME="tts Coverage Results" MODIFIED="1609796067944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

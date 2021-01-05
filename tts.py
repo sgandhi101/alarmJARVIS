@@ -3,13 +3,9 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 import os
 import time
-from datetime import datetime
 
 
 def speak(text):
-    start = datetime.now()
-
-    options = webdriver.ChromeOptions()
     chrome_options = Options()
     chrome_options.add_argument("--headless")
 
@@ -36,7 +32,5 @@ def speak(text):
 
     driver.find_element_by_id('btn').click()
 
-    print("Total Time:", datetime.now() - start)
-
-    time.sleep(10)
+    time.sleep(60)
     os.system('killall chromedriver')
