@@ -3,7 +3,7 @@ client_secret = 'OMJ2h40J8iZvCiBV43FZdleN'
 
 
 def class_time():
-    pass
+    return "Your first class begins in "
 
 
 # Figure out some way to subtract class times here

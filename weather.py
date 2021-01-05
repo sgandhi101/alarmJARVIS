@@ -1,6 +1,8 @@
 import pyowm
 
 
+# TODO: Need to use a different library for weather this one sucks
+
 def weather():
     owm = pyowm.OWM('1488aedbe2262fa7821c31932646460b')  # TODO: Replace <api_key> with your API key
     mgr = owm.weather_manager()
@@ -25,8 +27,6 @@ def weather():
         wind_speed) + " miles per hour and " + rain + ". "
     return final_weather
 
-
-print(weather())
 
 """
 **************** CLOUDY AND RAIN ****************
