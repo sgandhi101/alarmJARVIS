@@ -1,32 +1,20 @@
-import pyowm
-
-
-# TODO: Need to use a different library for weather this one sucks
+import weathercom
+from json import loads
 
 def weather():
-    owm = pyowm.OWM('1488aedbe2262fa7821c31932646460b')  # TODO: Replace <api_key> with your API key
-    mgr = owm.weather_manager()
-    obs = mgr.weather_at_coords(lat=39.166592, lon=-86.534889)
-    w = obs.weather
-    vol_rain = w.rain
-    wind_speed = w.wind()['speed']
-    status = w.detailed_status
-
-    high = int(w.temperature('fahrenheit')['temp_max'])
-    low = int(w.temperature('fahrenheit')['temp_min'])
-    temp = int(w.temperature('fahrenheit')['temp'])
-
-    if not vol_rain:
-        rain = "there is expected to be rain later"
+    detailed = weathercom.getCityWeatherDetails("bloomington, indiana", queryType="hourly-data")
+    w = loads(detailed)
+    feels = round((w["vt1hourlyForecast"]["feelsLike"][0] * float(9/5)) + 32)
+    rain = max(w["vt1hourlyForecast"]["precipPct"])
+    status = (w["vt1hourlyForecast"]["phrase"][0]).lower()
+    if rain > 5:
+        rain = ". There is a high chance of precipitation today, at " + str(rain) + " percent. "
     else:
-        rain = "there is no rain expected"
+        rain = ". There is no rain expected today. "
 
-    final_weather = " the weather in Bloomington is " + str(temp) + " with today's status being " + str(
-        status) + ". There is a high of " + str(high) + " degrees, reaching to a low of " + str(
-        low) + ". Currently, there is a wind speed of about " + str(
-        wind_speed) + " miles per hour and " + rain + ". "
+    final_weather = ". The weather in Bloomington is " + str(feels) + " degrees with today's status being, " + str(
+        status) + rain
     return final_weather
-
 
 """
 **************** CLOUDY AND RAIN ****************

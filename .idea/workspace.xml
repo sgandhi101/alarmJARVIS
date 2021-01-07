@@ -23,7 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfd515fb-24bf-410d-ac7d-86e248f4816d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/soundtrack.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_time.py" beforeDir="false" afterPath="$PROJECT_DIR$/class_time.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsTime.py" beforeDir="false" afterPath="$PROJECT_DIR$/newsTime.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tts.py" beforeDir="false" afterPath="$PROJECT_DIR$/tts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather.py" beforeDir="false" afterPath="$PROJECT_DIR$/weather.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,51 +79,7 @@
       <recent name="$PROJECT_DIR$/opencv" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="calSync" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="polly" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/calSync.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="get_news" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="polly" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/get_news.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.weather">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="polly" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -132,6 +94,50 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="scratch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="polly" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/scratches" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_tts" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="polly" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_tts.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.tts" />
-        <item itemvalue="Python.calSync" />
         <item itemvalue="Python.weather" />
-        <item itemvalue="Python.get_news" />
+        <item itemvalue="Python.tts" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.test_tts" />
+        <item itemvalue="Python.scratch" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +210,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575436872298</updated>
-      <workItem from="1609358344366" duration="25823000" />
+      <workItem from="1609358344366" duration="40654000" />
     </task>
     <task id="LOCAL-00001" summary="Free TTS">
       <created>1609721005303</created>
@@ -220,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609834402551</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commenting, minor fixes">
+      <created>1609834759042</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609834759042</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,62 +254,72 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Free TTS" />
     <MESSAGE value="Various fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Various fixes" />
+    <MESSAGE value="Commenting, minor fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commenting, minor fixes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1118" y="-770" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609739424376">
-      <screen x="565" y="-1055" width="1920" height="1055" />
-    </state>
-    <state x="1118" y="-770" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.822/-1360.-1055.1920.1055/565.-1055.1920.1055@565.-1055.1920.1055" timestamp="1609739424376" />
-    <state x="415" y="247" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.823/-1360.-1055.1920.1055/565.-1055.1920.1055@0.25.1440.823" timestamp="1609569098996" />
-    <state x="1118" y="-770" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.823/-1360.-1055.1920.1055/565.-1055.1920.1055@565.-1055.1920.1055" timestamp="1609571218963" />
-    <state width="1396" height="251" key="GridCell.Tab.0.bottom" timestamp="1609834434524">
+    <state x="415" y="247" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609977822994">
       <screen x="0" y="25" width="1440" height="822" />
     </state>
-    <state width="1876" height="212" key="GridCell.Tab.0.bottom/0.25.1440.822/-1360.-1055.1920.1055/565.-1055.1920.1055@565.-1055.1920.1055" timestamp="1609740751195" />
-    <state width="1396" height="251" key="GridCell.Tab.0.bottom/0.25.1440.822@0.25.1440.822" timestamp="1609834434524" />
+    <state x="1118" y="-770" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.822/-1360.-1055.1920.1055/565.-1055.1920.1055@565.-1055.1920.1055" timestamp="1609739424376" />
+    <state x="415" y="247" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.822@0.25.1440.822" timestamp="1609977822994" />
+    <state x="415" y="247" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.823/-1360.-1055.1920.1055/565.-1055.1920.1055@0.25.1440.823" timestamp="1609569098996" />
+    <state x="1118" y="-770" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.823/-1360.-1055.1920.1055/565.-1055.1920.1055@565.-1055.1920.1055" timestamp="1609571218963" />
+    <state x="1238" y="-736" key="#xdebugger.XInspectDialog" timestamp="1609895077184">
+      <screen x="565" y="-1055" width="1920" height="1055" />
+    </state>
+    <state x="1238" y="-736" key="#xdebugger.XInspectDialog/0.25.1440.822/-1360.-1055.1920.1055/565.-1055.1920.1055@565.-1055.1920.1055" timestamp="1609895077184" />
+    <state width="1396" height="402" key="GridCell.Tab.0.bottom" timestamp="1609978100852">
+      <screen x="0" y="25" width="1440" height="822" />
+    </state>
+    <state width="1272" height="347" key="GridCell.Tab.0.bottom/0.25.1440.822/-1360.-1055.1920.1055/565.-1055.1920.1055@565.-1055.1920.1055" timestamp="1609910694603" />
+    <state width="1396" height="402" key="GridCell.Tab.0.bottom/0.25.1440.822@0.25.1440.822" timestamp="1609978100852" />
     <state width="1396" height="191" key="GridCell.Tab.0.bottom/0.25.1440.823/-1360.-1055.1920.1055/565.-1055.1920.1055@0.25.1440.823" timestamp="1609570039212" />
     <state width="1876" height="216" key="GridCell.Tab.0.bottom/0.25.1440.823/-1360.-1055.1920.1055/565.-1055.1920.1055@565.-1055.1920.1055" timestamp="1609573414929" />
     <state width="1396" height="216" key="GridCell.Tab.0.bottom/0.25.1440.823@0.25.1440.823" timestamp="1609626729631" />
-    <state width="1396" height="251" key="GridCell.Tab.0.center" timestamp="1609834434524">
+    <state width="1396" height="402" key="GridCell.Tab.0.center" timestamp="1609978100851">
       <screen x="0" y="25" width="1440" height="822" />
     </state>
-    <state width="1876" height="212" key="GridCell.Tab.0.center/0.25.1440.822/-1360.-1055.1920.1055/565.-1055.1920.1055@565.-1055.1920.1055" timestamp="1609740751194" />
-    <state width="1396" height="251" key="GridCell.Tab.0.center/0.25.1440.822@0.25.1440.822" timestamp="1609834434524" />
+    <state width="1272" height="347" key="GridCell.Tab.0.center/0.25.1440.822/-1360.-1055.1920.1055/565.-1055.1920.1055@565.-1055.1920.1055" timestamp="1609910694601" />
+    <state width="1396" height="402" key="GridCell.Tab.0.center/0.25.1440.822@0.25.1440.822" timestamp="1609978100851" />
     <state width="1396" height="191" key="GridCell.Tab.0.center/0.25.1440.823/-1360.-1055.1920.1055/565.-1055.1920.1055@0.25.1440.823" timestamp="1609570039211" />
     <state width="1876" height="216" key="GridCell.Tab.0.center/0.25.1440.823/-1360.-1055.1920.1055/565.-1055.1920.1055@565.-1055.1920.1055" timestamp="1609573414928" />
     <state width="1396" height="216" key="GridCell.Tab.0.center/0.25.1440.823@0.25.1440.823" timestamp="1609626729630" />
-    <state width="1396" height="251" key="GridCell.Tab.0.left" timestamp="1609834434523">
+    <state width="1396" height="402" key="GridCell.Tab.0.left" timestamp="1609978100850">
       <screen x="0" y="25" width="1440" height="822" />
     </state>
-    <state width="1876" height="212" key="GridCell.Tab.0.left/0.25.1440.822/-1360.-1055.1920.1055/565.-1055.1920.1055@565.-1055.1920.1055" timestamp="1609740751192" />
-    <state width="1396" height="251" key="GridCell.Tab.0.left/0.25.1440.822@0.25.1440.822" timestamp="1609834434523" />
+    <state width="1272" height="347" key="GridCell.Tab.0.left/0.25.1440.822/-1360.-1055.1920.1055/565.-1055.1920.1055@565.-1055.1920.1055" timestamp="1609910694599" />
+    <state width="1396" height="402" key="GridCell.Tab.0.left/0.25.1440.822@0.25.1440.822" timestamp="1609978100850" />
     <state width="1396" height="191" key="GridCell.Tab.0.left/0.25.1440.823/-1360.-1055.1920.1055/565.-1055.1920.1055@0.25.1440.823" timestamp="1609570039211" />
     <state width="1876" height="216" key="GridCell.Tab.0.left/0.25.1440.823/-1360.-1055.1920.1055/565.-1055.1920.1055@565.-1055.1920.1055" timestamp="1609573414927" />
     <state width="1396" height="216" key="GridCell.Tab.0.left/0.25.1440.823@0.25.1440.823" timestamp="1609626729629" />
-    <state width="1396" height="251" key="GridCell.Tab.0.right" timestamp="1609834434524">
+    <state width="1396" height="402" key="GridCell.Tab.0.right" timestamp="1609978100852">
       <screen x="0" y="25" width="1440" height="822" />
     </state>
-    <state width="1876" height="212" key="GridCell.Tab.0.right/0.25.1440.822/-1360.-1055.1920.1055/565.-1055.1920.1055@565.-1055.1920.1055" timestamp="1609740751195" />
-    <state width="1396" height="251" key="GridCell.Tab.0.right/0.25.1440.822@0.25.1440.822" timestamp="1609834434524" />
+    <state width="1272" height="347" key="GridCell.Tab.0.right/0.25.1440.822/-1360.-1055.1920.1055/565.-1055.1920.1055@565.-1055.1920.1055" timestamp="1609910694602" />
+    <state width="1396" height="402" key="GridCell.Tab.0.right/0.25.1440.822@0.25.1440.822" timestamp="1609978100852" />
     <state width="1396" height="191" key="GridCell.Tab.0.right/0.25.1440.823/-1360.-1055.1920.1055/565.-1055.1920.1055@0.25.1440.823" timestamp="1609570039211" />
     <state width="1876" height="216" key="GridCell.Tab.0.right/0.25.1440.823/-1360.-1055.1920.1055/565.-1055.1920.1055@565.-1055.1920.1055" timestamp="1609573414928" />
     <state width="1396" height="216" key="GridCell.Tab.0.right/0.25.1440.823@0.25.1440.823" timestamp="1609626729630" />
-    <state width="1396" height="254" key="GridCell.Tab.1.bottom" timestamp="1609706167725">
-      <screen x="0" y="25" width="1440" height="822" />
+    <state width="1876" height="346" key="GridCell.Tab.1.bottom" timestamp="1609905096729">
+      <screen x="565" y="-1055" width="1920" height="1055" />
     </state>
+    <state width="1876" height="346" key="GridCell.Tab.1.bottom/0.25.1440.822/-1360.-1055.1920.1055/565.-1055.1920.1055@565.-1055.1920.1055" timestamp="1609905096729" />
     <state width="1396" height="254" key="GridCell.Tab.1.bottom/0.25.1440.822@0.25.1440.822" timestamp="1609706167725" />
-    <state width="1396" height="254" key="GridCell.Tab.1.center" timestamp="1609706167724">
-      <screen x="0" y="25" width="1440" height="822" />
+    <state width="1876" height="346" key="GridCell.Tab.1.center" timestamp="1609905096728">
+      <screen x="565" y="-1055" width="1920" height="1055" />
     </state>
+    <state width="1876" height="346" key="GridCell.Tab.1.center/0.25.1440.822/-1360.-1055.1920.1055/565.-1055.1920.1055@565.-1055.1920.1055" timestamp="1609905096728" />
     <state width="1396" height="254" key="GridCell.Tab.1.center/0.25.1440.822@0.25.1440.822" timestamp="1609706167724" />
-    <state width="1396" height="254" key="GridCell.Tab.1.left" timestamp="1609706167724">
-      <screen x="0" y="25" width="1440" height="822" />
+    <state width="1876" height="346" key="GridCell.Tab.1.left" timestamp="1609905096727">
+      <screen x="565" y="-1055" width="1920" height="1055" />
     </state>
+    <state width="1876" height="346" key="GridCell.Tab.1.left/0.25.1440.822/-1360.-1055.1920.1055/565.-1055.1920.1055@565.-1055.1920.1055" timestamp="1609905096727" />
     <state width="1396" height="254" key="GridCell.Tab.1.left/0.25.1440.822@0.25.1440.822" timestamp="1609706167724" />
-    <state width="1396" height="254" key="GridCell.Tab.1.right" timestamp="1609706167724">
-      <screen x="0" y="25" width="1440" height="822" />
+    <state width="1876" height="346" key="GridCell.Tab.1.right" timestamp="1609905096728">
+      <screen x="565" y="-1055" width="1920" height="1055" />
     </state>
+    <state width="1876" height="346" key="GridCell.Tab.1.right/0.25.1440.822/-1360.-1055.1920.1055/565.-1055.1920.1055@565.-1055.1920.1055" timestamp="1609905096728" />
     <state width="1396" height="254" key="GridCell.Tab.1.right/0.25.1440.822@0.25.1440.822" timestamp="1609706167724" />
     <state x="394" y="70" key="SettingsEditor" timestamp="1609788022640">
       <screen x="0" y="25" width="1440" height="822" />
@@ -304,11 +327,15 @@
     <state x="394" y="70" key="SettingsEditor/0.25.1440.822@0.25.1440.822" timestamp="1609788022640" />
     <state x="238" y="65" key="SettingsEditor/0.25.1440.823/-1360.-1055.1920.1055/565.-1055.1920.1055@0.25.1440.823" timestamp="1609563421390" />
     <state x="238" y="65" key="SettingsEditor/0.25.1440.823@0.25.1440.823" timestamp="1609358401176" />
-    <state x="420" y="228" key="Vcs.Push.Dialog.v2" timestamp="1609834405649">
+    <state x="420" y="228" key="Vcs.Push.Dialog.v2" timestamp="1609834760903">
       <screen x="0" y="25" width="1440" height="822" />
     </state>
     <state x="1125" y="-795" key="Vcs.Push.Dialog.v2/0.25.1440.822/-1360.-1055.1920.1055/565.-1055.1920.1055@565.-1055.1920.1055" timestamp="1609721060549" />
-    <state x="420" y="228" key="Vcs.Push.Dialog.v2/0.25.1440.822@0.25.1440.822" timestamp="1609834405649" />
+    <state x="420" y="228" key="Vcs.Push.Dialog.v2/0.25.1440.822@0.25.1440.822" timestamp="1609834760903" />
+    <state x="1053" y="-877" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1609905094373">
+      <screen x="565" y="-1055" width="1920" height="1055" />
+    </state>
+    <state x="1053" y="-877" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.25.1440.822/-1360.-1055.1920.1055/565.-1055.1920.1055@565.-1055.1920.1055" timestamp="1609905094373" />
     <state x="1192" y="-750" key="git4idea.merge.GitPullDialog" timestamp="1609721068669">
       <screen x="565" y="-1055" width="1920" height="1055" />
     </state>
@@ -320,11 +347,13 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/alarmJARVIS$newsTime.coverage" NAME="newsTime Coverage Results" MODIFIED="1609657681225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/alarmJARVIS$weather.coverage" NAME="weather Coverage Results" MODIFIED="1609808579548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/alarmJARVIS$weather.coverage" NAME="weather Coverage Results" MODIFIED="1609978093948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/alarmJARVIS$get_news.coverage" NAME="get_news Coverage Results" MODIFIED="1609720156744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/alarmJARVIS$class_time.coverage" NAME="class_time Coverage Results" MODIFIED="1609892861784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/alarmJARVIS$calSync.coverage" NAME="calSync Coverage Results" MODIFIED="1609834006688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/alarmJARVIS$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1609573414917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
-    <SUITE FILE_PATH="coverage/alarmJARVIS$main.coverage" NAME="main Coverage Results" MODIFIED="1609834593438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/alarmJARVIS$tts.coverage" NAME="tts Coverage Results" MODIFIED="1609834431293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/alarmJARVIS$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1609902858960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/alarmJARVIS$test_tts.coverage" NAME="test_tts Coverage Results" MODIFIED="1609903017215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/alarmJARVIS$main.coverage" NAME="main Coverage Results" MODIFIED="1609904541490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/alarmJARVIS$tts.coverage" NAME="tts Coverage Results" MODIFIED="1609906174065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
