@@ -2,6 +2,11 @@ from ibm_watson import TextToSpeechV1
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 from datetime import datetime
 
+"""
+The issue may be with the newest version of PyJWT package (2.0.0). 
+use 'pip install PyJWT==1.7.1' to downgrade to the previous version
+"""
+
 day = int(datetime.now().day)
 final = "INSERT_WHAT_TO_SAY_HERE"
 

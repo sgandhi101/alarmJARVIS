@@ -15,7 +15,7 @@ def class_time():
     start = datetime.now().time()
     now = timedelta(hours=start.hour, minutes=start.minute, seconds=start.second)
     day = str(datetime.today().weekday())
-    if day != 5 and day != 6:
+    if int(day) < 5:
         next_class = classes[day]
         delta = next_class - now
         delta = delta.seconds

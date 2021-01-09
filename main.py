@@ -9,4 +9,4 @@ weather = weather()
 
 final = "Good morning. " + time_text + weather + lecture
 print(final)
-speak(final)
+speak(final)  # IFTTT Requests done in this file

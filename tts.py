@@ -3,6 +3,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 import os
 from time import sleep
+import requests
 
 def speak(text):
     chrome_options = Options()
@@ -30,8 +31,8 @@ def speak(text):
     driver.find_element_by_id('downshift-3-toggle-button').send_keys(Keys.ARROW_UP, Keys.ENTER)
 
     driver.find_element_by_id('btn').click()
-    sleep(10)
-
+    sleep(9.5)
+    requests.post("https://maker.ifttt.com/trigger/light_on/with/key/gsKcdHNyARXIQw9Mzh3ZTdMN_z5SK69A-btqMxQvHE8")
     # Following line of code is only for Mac OS
     os.system(
         'afplay -v 0.18 soundtrack.mp3')  # This is NOT a linear scaling but relative to a logarithmic output
